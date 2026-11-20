@@ -3,17 +3,32 @@ console.log("Nigeria");
 console.log("Egypt");
 console.log("Kenya");
 console.log("Asia");
-for (let i = 0; i < 5; i++) {
-    console.log("China");
+for (let counter = 0; counter < 5; counter++) {
+    // if (counter === 4) {
+    //     // break;
+    //     continue;
+    // }
+     console.log(counter,"China");
 }
-console.log("China");
+
 console.log("Japan");
 console.log("India");
 console.log("Europe");
-console.log("Germany");
+let counter = 0;
+while (counter < 5) {
+    console.log("Germany");
+    counter++;
+}
 console.log("France");
 console.log("Italy");
 console.log("North America");
 console.log("United States");
 console.log("Canada");
 console.log("Mexico");
+
+
+// let students = ["John", "Jane", "Jim", "Jill"];
+// for (let element of students) {
+//     console.log(element);
+// }
+
